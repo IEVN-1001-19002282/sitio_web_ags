@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap');
+
+/* Resto de tus estilos aquí */
+
+.estilo-menu {
+    text-transform: uppercase;
+  }
+  
+/* Estilo para el botón */
+.boton-negro {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    border: none;
+    border-radius: 5px; /* Ajusta el radio de borde según sea necesario */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+  }
+  
+  /* Estilo cuando el mouse pasa sobre el botón */
+  .boton-negro:hover {
+    background-color: #333; /* Puedes ajustar este color según tus preferencias */
+  }
+  .circle-icon {
+    background-color: #00B394; /* Color de fondo del círculo */
+    color: rgb(255, 248, 248); /* Color del icono */
+    border-radius: 50%; /* Hace que el borde sea redondeado, creando un círculo */
+    width: 40px; /* Ancho del círculo */
+    height: 40px; /* Altura del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
