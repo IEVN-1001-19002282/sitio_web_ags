@@ -124,6 +124,7 @@
       <!--IMAGENES DE FONDO-->
         <v-card color="#043278">
           <v-img
+          id="images"
 
           :src="dialog_soy_estudiante == true && sub_menu_soy_estudiante_tramites == true ? require('@/assets/fondos/SoyEstudiante.webp') :
           dialog_soy_estudiante == true && sub_menu_soy_aspirante_oferta_educativa == true ? require('@/assets/fondos/SoyEstudiante.webp') :
@@ -134,7 +135,7 @@
 
           
           
-          style="height:720px;"
+          style="height:720px; transition: opacity 2s ease"
         >
           <!-- AQUI EMPIEZA LA BARRA DE HASTA ARRIBA SECCION SOY ESTUDIANTE-->
           
@@ -1625,6 +1626,10 @@ export default {
 
 .btnmenu:hover:after {
   width: 100%;
+}
+
+#images{
+  transition: opacity 5s ease;
 }
 
 </style>

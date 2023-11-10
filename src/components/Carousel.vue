@@ -1,7 +1,7 @@
 <template>
   <div class="timelapse-container" style="margin-top: -100px; z-index: 1; box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.5);">
     <video id="timelapseVideo" autoplay muted loop>
-      <source src="@/assets/IMG_1394.mp4" type="video/mp4">
+      <source src="@/assets/timelapse.mp4" type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
   </div>
