@@ -122,7 +122,7 @@
         transition="dialog-top-transition"
       >
       <!--IMAGENES DE FONDO-->
-        <v-card color="#00FF0000">
+        <v-card color="#043278">
           <v-img
 
           :src="dialog_soy_estudiante == true && sub_menu_soy_estudiante_tramites == true ? require('@/assets/fondos/SoyEstudiante.webp') :
